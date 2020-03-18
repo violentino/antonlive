@@ -1,0 +1,66 @@
+/*---------------------MEDIA QEARIES-------------------*/
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.list-first {
+		text-align: center;
+	}
+	.list {
+		margin-top: 30px;
+	}
+	.list-menu__link:hover {
+		padding-bottom: 28px;
+	}
+	.list-menu {
+		justify-content: space-between;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.list {
+		display: none;
+	}
+	.news-link {
+		padding: 2px 33px 2px;
+	}
+	.news-title {
+		font-size: 18px;
+	}
+	.mobile-newsbtn {
+		display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.list-first {
+		text-align: center;
+	}
+	.list-menu {
+		display: none;
+	}
+	.newsmain-img {
+    display: none;
+  }
+  .news-link {
+		padding: 2px 33px 2px;
+	}
+	.mobile-newsbtn {
+		display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	.news-title {
+		font-size: 18px;
+	}
+
+}
